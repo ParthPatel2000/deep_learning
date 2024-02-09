@@ -1,0 +1,59 @@
+forest_fire dataset already exists at forest_fire.csv
+airfoil_self_noise dataset already exists at airfoil_self_noise.tsv
+Dataset:  forest_fire X shape:  (517, 10)
+---------------------------------------------
+Dataset:  forest_fire
+forest_fire featureless Test Loss: 1.0006322094069868
+forest_fire nearest_neighbors Test Loss: 1.203807587321709
+forest_fire linear_model Test Loss: 0.9997942036258519
+Best epoch: 199 with validation loss: 2.836988918313926
+Best epoch: 197 with validation loss: 2.7950590168210594
+Best epoch: 193 with validation loss: 2.776256607972424
+forest_fire TorchLearnerCVLinear Test Loss: 1.0104715949000493
+200
+Best epoch: 87 with validation loss: 2.754903173412789
+Best epoch: 19 with validation loss: 2.757229256020351
+Best epoch: 171 with validation loss: 2.756711857499216
+forest_fire TorchLearnerCVDeep Test Loss: 0.9800864808783935
+200
+---------------------------------------------
+Dataset:  airfoil_self_noise X shape:  (1503, 5)
+---------------------------------------------
+Dataset:  airfoil_self_noise
+airfoil_self_noise featureless Test Loss: 1.0014529646452288
+airfoil_self_noise nearest_neighbors Test Loss: 0.18670396851193105
+airfoil_self_noise linear_model Test Loss: 0.4947813111499513
+Best epoch: 198 with validation loss: 0.4634017810946511
+Best epoch: 189 with validation loss: 0.45341207326442423
+Best epoch: 181 with validation loss: 0.45209657594128777
+airfoil_self_noise TorchLearnerCVLinear Test Loss: 0.4877250999209319
+200
+Best epoch: 194 with validation loss: 0.34799029548922855
+Best epoch: 199 with validation loss: 0.30271478165541926
+Best epoch: 195 with validation loss: 0.2814348785867614
+airfoil_self_noise TorchLearnerCVDeep Test Loss: 0.32909159710510955
+200
+---------------------------------------------
++-----------------------------------------+----------+
+| Model                                   |      MSE |
++=========================================+==========+
+| forest_fire_featureless                 | 1.00063  |
++-----------------------------------------+----------+
+| forest_fire_nearest_neighbors           | 1.20381  |
++-----------------------------------------+----------+
+| forest_fire_linear_model                | 0.999794 |
++-----------------------------------------+----------+
+| forest_fire_TorchLearnerCVLinear        | 1.01047  |
++-----------------------------------------+----------+
+| forest_fire_TorchLearnerCVDeep          | 0.980086 |
++-----------------------------------------+----------+
+| airfoil_self_noise_featureless          | 1.00145  |
++-----------------------------------------+----------+
+| airfoil_self_noise_nearest_neighbors    | 0.186704 |
++-----------------------------------------+----------+
+| airfoil_self_noise_linear_model         | 0.494781 |
++-----------------------------------------+----------+
+| airfoil_self_noise_TorchLearnerCVLinear | 0.487725 |
++-----------------------------------------+----------+
+| airfoil_self_noise_TorchLearnerCVDeep   | 0.329092 |
++-----------------------------------------+----------+
